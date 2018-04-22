@@ -305,14 +305,14 @@
 <li>在安装目录上新建一个Hexo的文件夹，右键Git-bash，开始安装Hexo。</li>
 </ol>
 </blockquote>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo -g</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo init blog</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> blog</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo server</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> npm install hexo -g</span><br><span class="line"><span class="meta">$</span> hexo init blog</span><br><span class="line"><span class="meta">$</span> cd blog</span><br><span class="line"><span class="meta">$</span> npm install</span><br><span class="line"><span class="meta">$</span> hexo server</span><br></pre></td></tr></table></figure>
 <h6 id="这时Hexo已经在运行了，打开4000端口就可以看到本地的网页了http-localhost-4000-。-若安装了福昕阅读器占用了4000端口，可以通过hexo-server-p-5000换端口。"><a href="#这时Hexo已经在运行了，打开4000端口就可以看到本地的网页了http-localhost-4000-。-若安装了福昕阅读器占用了4000端口，可以通过hexo-server-p-5000换端口。" class="headerlink" title="这时Hexo已经在运行了，打开4000端口就可以看到本地的网页了http://localhost:4000/。 若安装了福昕阅读器占用了4000端口，可以通过hexo server -p 5000换端口。"></a>这时Hexo已经在运行了，打开4000端口就可以看到本地的网页了<a href="http://localhost:4000/。" target="_blank" rel="noopener">http://localhost:4000/。</a> 若安装了福昕阅读器占用了4000端口，可以通过hexo server -p 5000换端口。</h6><h1 id="托管到Github"><a href="#托管到Github" class="headerlink" title="托管到Github"></a>托管到Github</h1><ol>
 <li><p>在自己的主页下创建一个新的repository。比如我的repository的名字就是yuanweikang/yuanweikang.github.io  </p>
 </li>
 <li><p>在Hexo/blog下的_config.yml文件下修改这些信息  </p>
 </li>
 </ol>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Deployment</span></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="comment"># Docs: http://hexo.io/docs/deployment.html</span></span></span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/ninokop/ninokop.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> Deployment</span><br><span class="line"><span class="meta">#</span># Docs: http://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/ninokop/ninokop.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <ol start="3">
 <li>hexo升级之后，type就不再是原来的github了，这时需要安装一个hexo插件  </li>
 </ol>
@@ -398,6 +398,10 @@ code {
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2018/04/22/因缺思挺/" rel="prev" title="因缺思挺">
+                因缺思挺 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -473,7 +477,7 @@ code {
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
